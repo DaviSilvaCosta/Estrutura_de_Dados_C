@@ -7,7 +7,7 @@ typedef struct {
   No *raiz;
   int tam;
 } Arvb;
-
+ 
 No* inserir(No* raiz, int valor) {
     if (raiz == NULL) {
         No* novo = (No*)malloc(sizeof(No));
