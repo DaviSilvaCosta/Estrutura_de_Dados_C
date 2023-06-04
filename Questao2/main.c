@@ -4,7 +4,7 @@
 #include "pilha.h"
 #include "fila.h"
 #include "arvore.h"
- 
+
 int main()
 {
     int opcao, numero_pilha, numero_fila, variavel_arvore, inserir;
@@ -153,7 +153,7 @@ int main()
                     case 6:
                       printf("Digite o valor a ser removido da árvore: \n=>");
                 scanf("%d", &valor);
-                arv.raiz = remover(arv.raiz, valor);
+                raiz = remover(raiz, valor);
                       
                       break;
             
