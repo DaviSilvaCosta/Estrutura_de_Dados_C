@@ -4,7 +4,7 @@
 #include "pilha.h"
 #include "fila.h"
 #include "arvore.h"
-
+ 
 int main()
 {
     int opcao, numero_pilha, numero_fila, variavel_arvore, inserir;
