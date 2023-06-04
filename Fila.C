@@ -2,7 +2,7 @@ struct Nodefila{
     int conteudo;
     struct Nodefila *prox;
 };
-
+ 
 typedef struct Nodefila nodefila;
 
 int EMPTY(nodefila *FILA){
